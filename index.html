@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Todo App</title>
+    <link rel="stylesheet" href="styles.css" />
+   
+    <!-- <link
+      href="https://fonts.googleapis.com/css?family=Architects+Daughter&display=swap"
+      rel="stylesheet"
+    /> -->
+    
+    <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"> -->
+    <script src="https://kit.fontawesome.com/07e86276dd.js" crossorigin="anonymous"></script>
+    
+  </head>
+
+  <body>
+    <div class="head">
+        <h1 class="heading"><span>To-Do List</span>
+          <span class="list"><i class="fa fa-list-alt" aria-hidden="true"></i></span></h1>
+        <div class="inputDiv">
+                <input type="text" class="input" placeholder="Enter item...">
+                <button class="add"><i class="fas fa-plus"></i></button>
+        </div>
+        <div class="container"></div>
+
+    </div>
+    <div class="button_cnt" align="center">
+              <a class="remove_btn" onclick="removeAll()">Remove All</a>
+    </div>
+    <script src="todo.js"></script>
+  </body>
+</html>

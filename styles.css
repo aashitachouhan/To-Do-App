@@ -1,0 +1,120 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100%;
+    background-color: #ffeaa7;
+    box-sizing: border-box;
+  }
+  
+  h1 {
+    display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 1rem;
+    /* text-align:center;
+    margin: 1rem 0 3rem;
+    color: black;
+    font-weight: 350;
+    font-size: 80px; */
+    font-family: "Architects Daughter", cursive;
+  padding: 0.2rem 1.2rem;
+  
+  background-color: #18071b;
+  color:rgb(24, 187, 216);
+  font-size: 5rem;
+  }
+  .list{
+    margin-left: 20px;
+    color: rgb(252, 182, 182);
+  }
+  .inputDiv{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Architects Daughter", cursive;
+  }
+  
+  .input{
+    height: 50px;
+    padding: 0.5rem 1rem;
+    outline: none;
+    border-radius: 10px;
+    width: 320px;
+    margin: 0.40rem;
+    transition: 0.5s;
+    font-size: 1.15rem;
+    font-family: "Architects Daughter", cursive;
+  }
+  
+  .add{
+    border-radius: 10px;
+    height: 50px;
+    width: 50px;
+    background-color: white;
+    cursor: pointer;
+    color: black;
+    border: 2.5px solid black;
+    margin: 0.25rem;
+    transition: 0.5s;
+  }
+  
+  .add:hover{
+    background-color: rgb(18, 18, 68);
+    color: white;
+  }
+
+  .item_input{
+    background: rgb(121, 204, 230);
+    outline: none;
+    border: 3px solid rgb(31, 31, 173);
+    padding: 10px;
+    color: rgb(31, 31, 173);
+    margin-top: 15px;
+    font-size: 20px;
+    width: 315px;
+    font-family: "Architects Daughter", cursive;
+  }
+
+  .container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top: 2rem;
+    flex-direction: column;
+  }
+
+  .remove{
+    background: none;
+    border: none;
+    color: red;
+    font-size: 2rem;
+    margin-left: 30px;
+    cursor: pointer;
+  }
+
+  .remove_btn{
+    margin-top: 35px;
+    padding: 20px;
+    text-transform: uppercase;
+    display: inline-block;
+    border-radius: 5px;
+    text-align: center;
+    background: rgb(18, 18, 68);
+    color: white;
+    font-size: 15px;
+    transition: all 0.4s erase 0s;
+    height: 55px;
+    width: 155px;
+   cursor: pointer;
+  }
+
+  .remove_btn:hover{
+    background: rgb(145, 233, 142);
+    color: green;
+    font-weight: 800px;
+  }
